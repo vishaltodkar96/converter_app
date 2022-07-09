@@ -2,6 +2,8 @@ let convertbuttonval = document.getElementById("btnconvert");
 
 let swapbuttonval = document.getElementById("btnswap");
 
+var value = "test";
+
 convertbuttonval.addEventListener("click", () => {
  
   let select1value = document.getElementById("select1").value;
@@ -22,7 +24,6 @@ convertbuttonval.addEventListener("click", () => {
     }
     return isBinary;
   }
-  
 
   if (inputvalue == "") {
     let error = document.getElementById("span-error");
