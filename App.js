@@ -22,6 +22,7 @@ convertbuttonval.addEventListener("click", () => {
     }
     return isBinary;
   }
+  
 
   if (inputvalue == "") {
     let error = document.getElementById("span-error");
