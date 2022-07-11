@@ -25,7 +25,7 @@
     border-radius: 1rem;
     display: block;
     width: 400px;
-    height: 350px;
+    height: 360px;
     background-color: #CAD5E2;
 }
 
@@ -84,7 +84,7 @@
 }
 
 #btnconvert {
-    margin-left: 65px;
+    margin-left: 20px;
     margin-top: 10px;
     height: 2.5rem;
     width: 7rem;
@@ -97,7 +97,20 @@
 }
 
 #btnswap {
-    margin-left: 65px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 2.5rem;
+    width: 5rem;
+    font-size: large;
+    cursor: pointer;
+    color:rgb(236, 4, 4);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+#btnreset {
+    margin-left: 20px;
     margin-top: 10px;
     height: 2.5rem;
     width: 5rem;
